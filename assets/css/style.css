@@ -52,15 +52,27 @@ html {
 
 /* header */
 
-.header {
-   background-color: #e6f0ff;
-   height: 100vh;
+.fixed-header {
+   background: #e6f0ff;
+   padding-top: 26px;
+   position: sticky;
+   top: -26px;
+   z-index: 1;
+}
+
+.hero-wrap {
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   background: #e6f0ff;
+   height: calc(100vh - 90px);
 }
 
 .navbar {
    display: flex;
    align-items: center;
-   padding-top: 38px;
+   padding: 12px 0;
 }
 
 .navbar ul {
@@ -108,7 +120,7 @@ html {
 }
 
 .hero {
-   margin-top: 110px;
+   padding-top: 110px;
    position: relative;
 }
 
