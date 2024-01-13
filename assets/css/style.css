@@ -167,10 +167,6 @@ html {
    margin-bottom: 41px;
 }
 
-.client .content .row {
-   /* display: flex; */
-}
-
 .client .content .row-desc {
    display: flex;
    margin-left: auto;
@@ -206,6 +202,18 @@ html {
    margin-left: auto;
    margin-right: auto;
    justify-content: space-between;
+}
+
+.client .company-link {
+   display: flex;
+   align-items: center;
+   height: 90px;
+   padding: 0 42px;
+   border-radius: 12px;
+}
+
+.client .company-link:hover {
+   box-shadow: 0px 0px 80px 15px rgba(0, 0, 0, 0.1);
 }
 
 .guide {
